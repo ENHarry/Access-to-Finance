@@ -1,11 +1,15 @@
-# Assessment of Minorities Access to Finance  
+# Assessment of Minorities Access to Finance 
+
+![](Images/sme_financing.jpg)
+
+
 ## About This Project
 
 Abstract – Access to finance is a fundamental aspect of an individual’s social and economic growth. By applying data mining techniques (exploratory and predictive analytics) to the Home Mortgage Disclosure Act data spanning a decade (from 2007 to 2016), insight is gained on the major determinants for mortgage approval or denial and how it has affected minorities over the past decade.
 
 	Index Terms – Visualization, Machine Learning, Neural Network, Decision Trees, Data Mining.
 
-I.  INTRODUCTION
+## I.  INTRODUCTION
 	“The American Dream” is a phrase that transcends time in the American society; giving the average man and woman a goal to work towards. For some it still remains the idea of having that house that you can finally call your home, with a “white picket fence”, and for others, the idea has evolved. Whatever the attainable, encapsulated in that dream, the constant themes are the need for socio-economic stability, success and freedom. Yet they can only be achieved through sufficient and unbiased Access to Finance. 
 In recent times, the following questions have become prevalent in public discussion forums; 
 1.	If things have changed in the United States, why are there still few minority owned business?
@@ -16,7 +20,10 @@ In recent times, the following questions have become prevalent in public discuss
 
 The list goes on. Yet to understand the issues with minorities in the United States, you cannot do so without talking about the issues African American have faced and continue to face in the United States. Hence, most of the references of the term “minorities” in this paper will be mostly referring to African-Americans.
 
-.  METHODOLOGY
+## II. METHODOLOGY
+
+![](Images/181001b.png)
+
 A.	Data Collection and Preprocessing
 	The 2007 to 2016 data which is about 100 gigabytes was downloaded in two parts from the Consumer Financial Protection Bureau.  Through the CFPB API, the public has the option of downloading the data with or without the data codes, but not without the actual value names. As such, the data came with labels as well. Hence, because of the size of the data, only the first five thousand rows were read in initially. This process made it easier to determine with columns contained character labels and which contained the label codes. 
 
@@ -40,7 +47,11 @@ The only actions relevant to this study are: 1-- Loan originated, which is a way
 The application approved but not accepted, represented by code 2, is replaced to code 1, thus ensuring that all loan approvals have the same identifier. While the application denied by financial institution, represented by code 3 is replaced with code 0. This ensures that all models will require “Binary Classification”. Lastly, a new subset of the data is collected, with the condition that all rows are selected where the “action_taken” variable has a value of either 0 or 1. 
 
 The processed data was then exported as a comma-separated values (csv) file for the exploratory visualization in Tableau.
-B.	The Story Within the Data
+
+
+![](Images/1 b1T9PtMK3bxboKvnSctNmg.jpeg)
+
+### B.     The Story Within the Data
        Having exported the data as a csv file, it is then imported into Tableau. And as in any good visualization, the visuals must provide answers to clearly defined questions. Since the recession occurred in 2009, the primary focus of the exploratory analysis will be on the data from 2012 to 2016.
        
 #### Note: All Visualizations were done in Tableau
