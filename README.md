@@ -49,7 +49,7 @@ The application approved but not accepted, represented by code 2, is replaced to
 The processed data was then exported as a comma-separated values (csv) file for the exploratory visualization in Tableau.
 
 
-![](Images/1 b1T9PtMK3bxboKvnSctNmg.jpeg)
+![](Images/story.jpeg)
 
 ### B.     The Story Within the Data
        Having exported the data as a csv file, it is then imported into Tableau. And as in any good visualization, the visuals must provide answers to clearly defined questions. Since the recession occurred in 2009, the primary focus of the exploratory analysis will be on the data from 2012 to 2016.
